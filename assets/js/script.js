@@ -50,6 +50,27 @@ console.log(textmin.length);
 
 // avec une function vérifier si le mot "nous" est contenu dans la string
 
-let result4 = transformerEnMaj.includes("nous"); // .search ?
+let contain = transformerEnMaj.includes("nous"); // .search ?
 
-console.log(result4);
+console.log(contain);
+
+
+// Une fonction qui génère un chiffre aléatoirement entre 1 et 10.
+
+let x = Math.floor((Math.random(1) * 10) + 1);
+
+console.log(x);
+
+
+//  corrigé :
+
+let nombre = Math.random() * 9 + 1;
+
+console.log(nombre);
+
+// math round
+
+let arrondi = Math.round(nombre);
+
+
+console.log(arrondi);
