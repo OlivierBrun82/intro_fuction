@@ -28,25 +28,25 @@ let result = transformerEnMaj.toUpperCase();
 
 console.log(result);
 
-// le "." make the change to what is before the "."
+// the "." make the change to what is before the "."
 
 
 
 // avec une function mettre en minuscule ! 
 
-let result2 = transformerEnMaj.toLowerCase();
+let textmin = transformerEnMaj.toLowerCase();
 
-console.log(result2)
+console.log(textmin);
 
 // avec une function enlever les espaces !
 
-let result3 = transformerEnMaj.replaceAll(" ", "")
+let withoutSpace = transformerEnMaj.replaceAll(" ", "")
 
-console.log(result3);
+console.log(withoutSpace);
 
 //  avec une function compter le nombre de characteres d'une string
 
-console.log(result2.length);
+console.log(textmin.length);
 
 // avec une function vérifier si le mot "nous" est contenu dans la string
 
